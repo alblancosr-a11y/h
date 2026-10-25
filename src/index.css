@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200..1000&display=swap');
+
+:root {
+  font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+}
+
+.font-serif {
+  font-family: 'Amiri', serif;
+}
+
+.font-arabic {
+  font-family: 'Cairo', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
